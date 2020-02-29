@@ -1,5 +1,5 @@
 # Introduction 
-This is a orchestration api for processing sample
+This is an orchestration api for processing sample
 
 1. picking up notification messages from Azure Service Bus
 2. transforming incoming messages and invoking Api Calls

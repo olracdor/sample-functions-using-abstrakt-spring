@@ -9,7 +9,6 @@ import cloud.stuff.abstrakt.spring.AbstractSpring;
 import cdi.spring.service.*;
 import org.springframework.stereotype.Component;
 
-@Component
 abstract class AbstractSampleFunction extends AbstractSpring {
 
     @ApiClient

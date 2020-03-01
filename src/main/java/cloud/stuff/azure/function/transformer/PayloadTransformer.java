@@ -4,9 +4,7 @@ import java.util.ArrayList;
 
 import cloud.stuff.abstrakt.spring.annotation.*;
 import cloud.stuff.abstrakt.spring.exception.TransformerException;
-import org.springframework.stereotype.Repository;
 
-@Repository
 public interface PayloadTransformer {
 
     Object transform(@MapperParam("payload") String payload

@@ -40,7 +40,7 @@ public class SampleFunction1 extends AbstractSampleFunction {
                     , transformedPayload.toString());
 
         } catch (TransformerException error) {
-            context.getLogger().info("Catch error from mapper or throw it - throwing and error will send the message in the DLQ");
+            context.getLogger().info("Catch error from mapper or throw it - throwing the error will send the message to the DLQ");
         }
 
     }
